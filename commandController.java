@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class commandController {
 
@@ -42,5 +41,13 @@ public class commandController {
 
     public void listTasksInProgress() {
         taskService.listTasksInProgress();
+    }
+
+    public void saveToFile(){
+        taskService.saveToFile();
+    }
+
+    public void readTaskFromFile(){
+        taskService.readTaskFromFile();
     }
 }
